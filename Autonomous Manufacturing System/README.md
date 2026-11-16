@@ -81,4 +81,6 @@ This is a virtual industrial automation portfolio project, not physical machiner
 
 ## Demonstration video
 
-Pending recording and publication.
+[Watch the live system demonstration on YouTube](https://youtu.be/jnI2a7XCHpE)
+
+[![Watch the demonstration](https://img.youtube.com/vi/jnI2a7XCHpE/hqdefault.jpg)](https://youtu.be/jnI2a7XCHpE)
