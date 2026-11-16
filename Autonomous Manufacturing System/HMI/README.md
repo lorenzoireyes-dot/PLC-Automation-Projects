@@ -22,4 +22,4 @@ python -m pip install -r requirements.txt
 python manufacturing_hmi.py
 ```
 
-Exact tested package versions are pending confirmation from the development machine.
+The development machine uses Python 3.12, PyModbus 3.16.2 and CustomTkinter 6.0.0. The dependency file pins the observed package versions.
