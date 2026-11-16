@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "name": "Industrial_Automation",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "globalVariableLists": [],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "name": "instance0",
+            "task": "task0",
+            "program": "main"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "main": [
+          "START",
+          "STOP",
+          "SYSTEM_RUN",
+          "MOTOR",
+          "WARNING_LIGHT",
+          "STARTUP_TIMER",
+          "LINE_READY",
+          "PRODUCT_SENSOR",
+          "PROCESS_ACTIVE",
+          "PROCESS_DONE",
+          "PROCESS_TIMER",
+          "PROCESSOR",
+          "WAIT_CLEAR",
+          "INSPECTION_ACTIVE",
+          "INSPECTION_DONE",
+          "INSPECTION_TIMER",
+          "QUALITY_FAIL",
+          "REJECT_ACTIVE",
+          "REJECT_PULSE",
+          "PRODUCT_ACCEPTED",
+          "PRODUCT_REJECTED",
+          "ACCEPT_COUNT",
+          "REJECT_COUNT",
+          "RESET_COUNTS",
+          "TOTAL_PROCESSED",
+          "ORDER_QUANTITY",
+          "ORDER_REMAINING",
+          "QUANTITY_REACHED",
+          "ORDER_COMPLETE",
+          "BATCH_CAPACITY",
+          "BATCH_COUNT",
+          "PACKAGE_COUNT",
+          "BATCH_FULL",
+          "BATCH_NOT_READY",
+          "PACKAGING_ACTIVE",
+          "PACKAGING_DONE",
+          "SIMULATOR",
+          "DEFECT_PERCENT"
+        ]
+      }
+    }
+  }
+}
