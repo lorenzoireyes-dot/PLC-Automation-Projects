@@ -4,7 +4,8 @@ The native OpenPLC Editor V4 project is `OpenPLCProjects/` (project name: `Indus
 
 - `project.json`: project configuration
 - `devices/`: runtime selection, pin mapping and Modbus server configuration
-- `pous/function-blocks/PRODUCT_SIMULATOR.st`: simulated product arrival, quality and clearance
-- `pous/programs/main.ld`: native 28-rung Ladder Logic program (upload pending)
+- `pous/function-blocks/PRODUCT_SIMULATOR.st`: virtual product simulator
+- `pous/programs/main.ld`: native 28-rung Ladder Logic program
+- [PLCopen XML export](PLCopen_Export/plc.xml): interchange representation
 
-The project cannot yet be reopened from the repository until `main.ld` is uploaded. Generated compiler files, simulator dependencies and binary artifacts are intentionally excluded; rebuild using OpenPLC Editor V4.
+Generated compiler files and binaries are excluded. Rebuild using OpenPLC Editor V4. A clean checkout has not yet been independently reopened and built.
