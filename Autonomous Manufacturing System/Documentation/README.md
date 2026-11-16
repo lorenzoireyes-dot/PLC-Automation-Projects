@@ -1,3 +1,8 @@
 # Technical documentation
 
-Planned documentation: system architecture, control sequence, Ladder Logic explanation, Structured Text state machine, Modbus address map and integration test results. Exact register assignments and diagrams will be populated from the original project files.
+- [Modbus address map](Modbus_Address_Map.md)
+- [System architecture and control sequence](../README.md#system-architecture)
+- [Observed test results](../README.md#demonstrated-results)
+- [HMI design](../HMI/README.md)
+- [Docker deployment](../Runtime/README.md)
+- [Screenshot gallery](../Media/README.md)
