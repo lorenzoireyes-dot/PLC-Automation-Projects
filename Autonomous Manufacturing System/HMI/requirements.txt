@@ -1,0 +1,3 @@
+# Exact installed versions pending verification.
+customtkinter
+pymodbus>=3.10,<4
